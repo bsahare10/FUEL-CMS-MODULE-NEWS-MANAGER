@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery UI Sortable - Display as grid</title>
+
+        <style>
+            #group { list-style-type: none; margin: 0; padding: 0; width: 450px; }
+            #group li { margin: 3px 3px 3px 0; padding: 1px; float: left; width: 100px; height: 90px; font-size: 12px; text-align: center; }
+        </style>
+
+
+
+    </head>
+    <body>
+        <ul id="group" class="sortable">
+            <li><span class="handle">x</span><br>1</li>
+            <li><span class="handle">x</span><br>2</li>
+            <li><span class="handle">x</span><br>3</li>
+            <li><span class="handle">x</span><br>4</li>
+            <li><span class="handle">x</span><br>5</li>
+            <li><span class="handle">x</span><br>6</li>
+            <li><span class="handle">x</span><br>7<li>
+            <li><span class="handle">x</span><br>8</li>
+        </ul>
+    </body>
+
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script>
+
+        if (!jQuery().sortable) {
+            alert("jQuery Sortable Not Working!");     
+        }
+
+        $(function() {
+            $( ".sortable" ).sortable({ handle: '.handle' });
+            $( ".sortable" ).disableSelection();
+        });
+    </script>
+
+</html>
+
