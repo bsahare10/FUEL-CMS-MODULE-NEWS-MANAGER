@@ -13,4 +13,4 @@ This is a FUEL CMS NEWS-MANAGER module for adding news-group or can say news-cat
 
  4)   Add "news" to the $config['modules_allowed'] in fuel/application/config/MY_fuel.php
 
- 5)   Create a "NewsImages" folder in fuel/modules/assets and give rd permissions.
+ 5)   Give all read, write permissions to "NewsImages" folder given in fuel/modules/assets and give rd permissions.
