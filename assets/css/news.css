@@ -35,5 +35,6 @@
     #div_edit_gallery.edit-gallery-wrapper-main { float: left; display: inline-block; }
     .set-priview-img { vertical-align: text-bottom; }
     .priview-imgage-wrapp { height: 60px; width: 80px; display: inline-block; border: solid 1px #ccc; }
+    .gallery-images{ width: 60px; height: 50px; }
     
                      
